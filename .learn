@@ -1,0 +1,9 @@
+tags:
+  - nested hashes
+  - nested arrays
+  - data structures
+languages:
+  - ruby
+level: 1
+type:
+  - lab
