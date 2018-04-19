@@ -7,3 +7,5 @@ languages:
 level: 1
 type:
   - lab
+
+parent_template: git@github.com:learn-co-curriculum/upperline-hs-nested-data-structures-mini-lab.git

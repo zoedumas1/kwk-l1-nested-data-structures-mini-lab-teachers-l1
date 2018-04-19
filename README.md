@@ -1,4 +1,3 @@
-
 ##Nesting Habits
 <img src="https://s3.amazonaws.com/after-school-assets/nesting.jpg"> 
 Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
@@ -57,4 +56,4 @@ Bonus: Use an `each` loop with another `each` loop to `puts` a string for each k
 "The website of miami is http://www.miamigov.com"
 ```
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-nested-data-structures-mini-lab' title='Nesting Habits'>Nesting Habits</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-L1 Nesting Habits</p>
