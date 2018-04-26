@@ -1,4 +1,4 @@
-##Nesting Habits
+## Nesting Habits
 <img src="https://s3.amazonaws.com/after-school-assets/nesting.jpg"> 
 Arrays inside of arrays! Hashes inside of hashes! Arrays inside of hashes! Hashes inside of arrays inside of hashes! Oh my!
 
@@ -12,9 +12,9 @@ The `sandwich` array above is a series of nested arrays. What do I get if I ask 
 + `sandwich[1][0][0]` ?
 
 What code should I write to return each of these?:
-+ ["mayo", "mustard", "tabasco"]
-+ "cheddar"
-+ "sourdough"
++ `["mayo", "mustard", "tabasco"]`
++ `"cheddar"`
++ `"sourdough"`
 
 Make me a salami sandwich with swiss cheese on rye bread with mustard and mayo. Thank you.
 
