@@ -45,13 +45,13 @@ describe "sandwich_request" do
   end
   
   it 'returns true if all ingredients are found with a larger ingredient array' do
-    result = sandwich_request(ingr_small, ["turkey", "sourdough", "swiss", "mustard"])
-    expect(diamond).to eq(big_diamond), "expected a diamond with 9 rows, tapering in each direction. Received:\n#{diamond}"
+    result = sandwich_request(ingr_large, ["turkey", "sourdough", "swiss", "mustard"])
+    expect(result).to eq(true), "make sure you iterate through all arrays, no matter how large the provided `ingredients` array is"
   end
 
   it 'returns false if any ingredients are not found' do
     result = sandwich_request(ingr_small, ["turkey", "sourdough", "swiss", "mustard"])
-    expect(diamond).to eq(big_diamond), "expected a diamond with 9 rows, tapering in each direction. Received:\n#{diamond}"
+    expect(result).to eq(false), "if any of the ingredients in the order can't be found, make sure to return false"
   end
 end
 
