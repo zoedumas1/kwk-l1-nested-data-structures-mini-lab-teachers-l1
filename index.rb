@@ -40,5 +40,5 @@ cities = {
 }
 
 def city_populations(cities)
-  cities.values {|city| city[:population]}
+  cities.values.sum {|city| city[:population]}
 end
