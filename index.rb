@@ -10,7 +10,7 @@ def sandwich_request(ingredients, order)
     found = ingredients.find do |arr|
       arr.find {|have| want == have}
     end
-    return true if !found
+    return false if !found
   end
   true
 end
